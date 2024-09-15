@@ -1,0 +1,13 @@
+.copyright-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright-info p {
+    margin-top: 10px;
+}
+
+.copyright-info hr {
+    width: 90%;
+    margin: auto;
+}

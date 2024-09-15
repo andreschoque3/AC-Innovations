@@ -1,0 +1,24 @@
+.header-text {
+    margin-top: 20%;
+    font-size: 35px;
+}
+
+.header-text p {
+    margin-top: 30px;
+    font-size: 25px;
+    color: #E6E6E699;
+}
+
+.hero-btn-align {
+    margin-top: 50px;
+}
+
+.hero-btn {
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: #000223;
+    background-color: white;
+}
