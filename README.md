@@ -1,2 +1,2 @@
-# Knighthood-Academy
+# Genio
 Mentorship and consulting app
