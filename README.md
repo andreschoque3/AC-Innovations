@@ -1,2 +1,2 @@
 # Genio
-Mentorship and consulting app
+E-learning platform
