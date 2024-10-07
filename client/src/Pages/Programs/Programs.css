@@ -3,3 +3,8 @@
     font-size: 35px;
     margin-top: 30px;
 }
+
+body {
+     /* #000223 */
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6))
+}
