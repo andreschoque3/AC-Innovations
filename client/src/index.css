@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -8,11 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background: #000223;
-  /* linear-gradient(#00004D, #000223, #000033, #00001A, black); */
-  color: white;
-}
+ body {
+   color: white;
+} 
 
 .container {
   padding: 10px 10%;

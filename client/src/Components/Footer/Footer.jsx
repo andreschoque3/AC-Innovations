@@ -6,7 +6,7 @@ function Footer() {
     <div>
         <div className='copyright-info'>
             <hr />
-            <p>©️ 2024 Knighthood. All rights reserved.</p>
+            <p>©️ 2024 Matrix. All rights reserved.</p>
         </div>
     </div>
   )
