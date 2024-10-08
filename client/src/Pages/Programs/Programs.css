@@ -6,5 +6,33 @@
 
 body {
      /* #000223 */
+     background-color: #000223;
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6))
+}
+
+.programs {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.program-box {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.program-box h1 {
+    margin: 10px 0;
+}
+
+.program-box img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition:  transform 0.3s ease;
+}
+
+.program-box img:hover {
+    transform: translateY(-10px);
 }

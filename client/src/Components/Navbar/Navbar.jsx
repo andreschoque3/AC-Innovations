@@ -11,10 +11,10 @@ function Navbar() {
         <nav>
             <ul>
                 <li><Link to='/' className={location.pathname === '/' ? 'active' : ''}>Home</Link></li>
-                <li><Link to='/Programs' className={location.pathname === '/Programs' ? 'active' : ''}>Programs</Link></li>
-                <li><Link to='/Mission' className={location.pathname === '/Mission' ? 'active' : ''}>Mission</Link></li>
-                <li><Link to='Resources' className={location.pathname === '/Resources' ? 'active' : ''}>Resources</Link></li>
-                <li><Link to='/Contact' className={location.pathname === '/Contact' ? 'active' : ''}>Contact</Link></li>
+                <li><Link to='/programs' className={location.pathname === '/programs' ? 'active' : ''}>Programs</Link></li>
+                <li><Link to='/mission' className={location.pathname === '/mission' ? 'active' : ''}>Mission</Link></li>
+                <li><Link to='/resources' className={location.pathname === '/resources' ? 'active' : ''}>Resources</Link></li>
+                <li><Link to='/contact' className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
             </ul>
         </nav>
     </div>
