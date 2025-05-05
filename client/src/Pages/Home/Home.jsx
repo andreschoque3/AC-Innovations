@@ -1,23 +1,30 @@
 import React from 'react'
 import './Home.css'
+import heropic from '../../Assets/hero-pic1.jpg'
+import logo from '../../Assets/small.png'
 import Navbar from '../../Components/Navbar/Navbar'
-import video from '../../Assets/home-vd-1.mp4'
+
 
 function Home() {
   return (
     <div>
         <div className='header-sect'>
-          <video autoPlay muted loop className='background-video'>
-            <source src={video} type="video/mp4" />
-          </video>
           <div className='container'>
-              <Navbar/>
-              <div className='header-text'>
-                  <h1>Unlock Your Potential</h1>
-                  <p>Leverage your career with personalized strategies and support.</p>
-                  <div className='hero-btn-align'>
-                    <a href="/programs" className='hero-btn'>Learn more</a>
-                  </div>
+              <div className='head'>
+                <img src={logo} alt="logo" className='logo' />
+                <Navbar/>
+              </div>
+              <div className='cols'>
+                <div className='header-text'>
+                    <h1>Your On-Demand Innovation Team</h1>
+                    <p>Smart solutions to help you launch faster, scale smarter, and innovate with confidence.</p>
+                    <div className='hero-btn-align'>
+                      <a href="/programs" className='hero-btn'>Learn more</a>
+                    </div>
+                </div>
+                <div className='sec'>
+                  <img src={heropic} alt="hero-pic"  className='hero-pic'/>
+                </div>
               </div>
           </div>
         </div>

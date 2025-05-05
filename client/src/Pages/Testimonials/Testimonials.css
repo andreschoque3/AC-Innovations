@@ -1,0 +1,10 @@
+.tests {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+.test {
+    background-color: gray;
+}

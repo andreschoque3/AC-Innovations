@@ -1,20 +1,8 @@
-.p-header-txt {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 30px;
-}
-
-body {
-     /* #000223 */
-     background-color: #000223;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6))
-}
-
 .programs {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 8em;
 }
 
 .program-box {
@@ -24,6 +12,7 @@ body {
 
 .program-box h1 {
     margin: 10px 0;
+    font-size: 1.7em;
 }
 
 .program-box img {
@@ -35,4 +24,8 @@ body {
 
 .program-box img:hover {
     transform: translateY(-10px);
+}
+
+.p-programs-sect {
+    margin-bottom: 8em;
 }

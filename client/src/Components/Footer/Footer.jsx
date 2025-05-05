@@ -5,8 +5,8 @@ function Footer() {
   return (
     <div>
         <div className='copyright-info'>
-            <hr />
-            <p>©️ 2024 Matrix. All rights reserved.</p>
+            
+            <p>© 2025 AC Innovations. All rights reserved.</p>
         </div>
     </div>
   )

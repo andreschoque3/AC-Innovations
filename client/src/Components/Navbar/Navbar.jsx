@@ -13,7 +13,7 @@ function Navbar() {
                 <li><Link to='/' className={location.pathname === '/' ? 'active' : ''}>Home</Link></li>
                 <li><Link to='/programs' className={location.pathname === '/programs' ? 'active' : ''}>Programs</Link></li>
                 <li><Link to='/mission' className={location.pathname === '/mission' ? 'active' : ''}>Mission</Link></li>
-                <li><Link to='/resources' className={location.pathname === '/resources' ? 'active' : ''}>Resources</Link></li>
+                {/* <li><Link to='/testimonials' className={location.pathname === '/testimonials' ? 'active' : ''}>Testimonials</Link></li> */}
                 <li><Link to='/contact' className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
             </ul>
         </nav>

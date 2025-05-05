@@ -1,0 +1,36 @@
+.first {
+    margin-top: 2.5em;
+}
+
+.first h1 {
+    font-size: 4em;
+}
+
+.first p {
+    font-size: 2em;
+}
+
+.line {
+    margin: 5em 0;
+}
+
+.second, .third {
+    display: flex;
+    gap: 10em;
+}
+
+.one h2 {
+    font-size: 2em;
+}
+
+.two h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    
+}
+
+.two p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: darkgray;
+}
