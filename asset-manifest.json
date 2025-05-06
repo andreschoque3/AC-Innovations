@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AC-Innovations/static/css/main.a7c92672.css",
+    "main.js": "/AC-Innovations/static/js/main.066a7f83.js",
+    "static/media/freelancing.jpg": "/AC-Innovations/static/media/freelancing.28f390ae321ff83ad762.jpg",
+    "static/media/mentoring.jpg": "/AC-Innovations/static/media/mentoring.2991cee7e0f37b52c2b8.jpg",
+    "static/media/coding.jpg": "/AC-Innovations/static/media/coding.448fd39cbc300b0c39cb.jpg",
+    "static/media/hero-pic5.jpg": "/AC-Innovations/static/media/hero-pic5.3867fe802c955e8a5eee.jpg",
+    "static/media/small.png": "/AC-Innovations/static/media/small.7c1cca0a95997e125a97.png",
+    "index.html": "/AC-Innovations/index.html",
+    "main.a7c92672.css.map": "/AC-Innovations/static/css/main.a7c92672.css.map",
+    "main.066a7f83.js.map": "/AC-Innovations/static/js/main.066a7f83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7c92672.css",
+    "static/js/main.066a7f83.js"
+  ]
+}
