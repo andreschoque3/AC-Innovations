@@ -33,7 +33,7 @@
 }
 
 .hero-btn:hover {
-    background-color: darkgray;
+    background-color: #8D9797;
     color: white;
 }
 
@@ -43,9 +43,24 @@
 
 .cols {
     display: flex;
-    margin-top: 10em;
+    margin-top: 7em;
     gap: 5em;
 }
+
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .cols {
+    animation: slideInFromRight 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  }
 
 .sec img {
     border-radius: 1em;

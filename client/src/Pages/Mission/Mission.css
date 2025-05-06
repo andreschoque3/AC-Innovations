@@ -4,6 +4,7 @@
 
 .first h1 {
     font-size: 4em;
+    color: #8D9797;
 }
 
 .first p {
@@ -26,11 +27,26 @@
 .two h2 {
     font-size: 2em;
     margin-bottom: 1em;
+    color: #8D9797;
     
 }
 
 .two p {
     font-size: 1.2em;
     margin-bottom: 1.5em;
-    color: darkgray;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.m-text {
+    animation: slideInFromLeft 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }

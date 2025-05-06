@@ -3,7 +3,8 @@ import Home from './Pages/Home/Home'
 import './App.css';
 import Programs from './Pages/Programs/Programs';
 import Mission from './Pages/Mission/Mission';
-import Testimonials from './Pages/Testimonials/Testimonials'
+import Contact from './Pages/Contact/Contact';
+// import Testimonials from './Pages/Testimonials/Testimonials'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path='/Programs' element={<Programs/>}/>
           <Route path='/Mission' element={<Mission/>}/>
           {/* <Route path='/Testimonials' element={<Testimonials/>}/> */}
-          <Route path='/Contact'/>
+          <Route path='/Contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     </div>
